@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap');
+
+
+ul {
+	
+    
+    list-style-type: none;
+    margin:0PX;
+    padding:0PX;
+    overflow: hidden;
+    background-color: rgb(99, 87, 87);
+    height:80px;
+    width:28%;
+    display: flex;
+    flex: row;
+    align-items: center;
+    margin-left: 34%;
+    border:1rem solid;
+    border-radius: 50% 20% / 10% 40%;
+    margin-top: 50px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block
+   
+  }
+  
+  
+  li a:hover {
+    background-color: #88c1d0;
+  }
+  body {
+      display: flex;
+      flex-direction: column;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    height: 100%;
+    margin:0;
+    padding:0;
+    background-size: 100% ;
+    width:100%;  
+    color:black;
+}
+body:before {
+      content: "";
+      position: fixed;
+      height: 100%; width: 100%;
+      background: url('backgound4.jpg');
+      background-size: cover;
+      z-index: -1;     
+     -webkit-filter: blur(8px);
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+   }
+
+   article{
+display: flex;
+flex-direction:column;
+align-items: center;
+text-align: center;
+margin-top: 70px;
+font-family: 'Fascinate Inline', cursive;
+flex-grow: 1;
+   }
+
+
+   footer{
+    
+    display: flex;
+    flex-direction: row;
+    font-size:20;
+    justify-content: center;
+    width: 100%;
+    background: #998B7D;
+    
+
+}
+
+
+button {
+  border:none;
+  padding:6px 0 6px 0;
+  border-radius:8px;
+  background:#d34836;
+  font:bold 13px Arial;
+  color:#fff;
+  width: 50%;
+  margin-left: 300px;
+  
+}
